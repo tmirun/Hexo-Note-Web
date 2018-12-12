@@ -1,0 +1,29 @@
+{
+  "name": "hexo-note-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 5000",
+    "build": "next build",
+    "start": "next start",
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmirun/Hexo-Note-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmirun/Hexo-Note-Web/issues"
+  },
+  "homepage": "https://github.com/tmirun/Hexo-Note-Web#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
